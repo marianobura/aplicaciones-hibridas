@@ -1,0 +1,22 @@
+[
+    {
+        "id": "ae57dca4-6b5e-4b97-9f18-d540e3e2e378",
+        "name": "Café Expreso",
+        "price": 300
+    },
+    {
+        "id": "bdb704ab-85e6-4a92-a632-541bc69e85e2",
+        "name": "Café Americano",
+        "price": 200
+    },
+    {
+        "id": "ba2485b5-ca18-4a59-9462-b0e088de8371",
+        "name": "Capuchino",
+        "price": 400
+    },
+    {
+        "id": "6e0f1850-0979-40e9-aff8-620fa8bae0e1",
+        "name": "Vainilla Latte",
+        "price": 250
+    }
+]
