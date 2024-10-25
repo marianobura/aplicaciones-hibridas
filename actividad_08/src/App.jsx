@@ -1,6 +1,5 @@
 function App() {
-  const title = <h1 className="text-white font-semibold text-3xl">Actividad 08 - Página Web con React</h1>
-  const parraph = <p className="text-neutral-200 text-xl">Mariano Buranits | Aplicaciones Híbridas | DWM4AP</p>
+  const parraph = "Mariano Buranits | Aplicaciones Híbridas | DWM4AP"
   
   const products = [
     { id: 1, title: "Essence Mascara Lash Princess", price: 9.99, thumbnail: "/essence-mascara-lash-princess.png" },
@@ -18,8 +17,8 @@ function App() {
   return (
     <>
       <div className="flex flex-col gap-2 bg-green-800 items-center justify-center">
-        {title}
-        {parraph}
+        <h1 className="text-white font-semibold text-3xl">Actividad 08 - Página Web con React</h1>
+        <p className="text-neutral-200 text-xl">{ parraph }</p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-6 my-6">
         {products.map((product) => (
